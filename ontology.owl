@@ -36,8 +36,8 @@
       <ont:AgeGroup rdf:about="https://onttest.net/ontology#adults"/>
     </ont:hasAgeGroup>
     <ont:age rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
-    >25</ont:age>
-    <ont:name>Vlad</ont:name>
+    >28</ont:age>
+    <ont:name>Sophie</ont:name>
   </ont:User>
   <ont:User rdf:about="https://onttest.net/ontology#second_user">
     <ont:canCommunicateWith>
@@ -50,14 +50,14 @@
           <ont:AgeGroup rdf:about="https://onttest.net/ontology#teenagers"/>
         </ont:hasAgeGroup>
         <ont:age rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
-        >17</ont:age>
-        <ont:name>Alina</ont:name>
+        >14</ont:age>
+        <ont:name>Serhiy</ont:name>
       </ont:User>
     </ont:canCommunicateWith>
     <ont:memberOf rdf:resource="https://onttest.net/ontology#first_group"/>
     <ont:hasAgeGroup rdf:resource="https://onttest.net/ontology#teenagers"/>
     <ont:age rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
-    >16</ont:age>
-    <ont:name>Bohdan</ont:name>
+    >15</ont:age>
+    <ont:name>Olha</ont:name>
   </ont:User>
 </rdf:RDF>
